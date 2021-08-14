@@ -123,4 +123,16 @@
 .button.orange:hover { color:hsl(31, 77%, 52%); }
 .button.d-cyan:hover { color:hsl(184, 100%, 22%); }
 .button.v-d-cyan:hover { color:hsl(179, 100%, 13%); }
+
+/* Mobile layout */
+@media screen and (max-width: 500px) {
+    .columns {
+        width: 375px;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+        flex-direction: column;
+    }
+}
 </style>
